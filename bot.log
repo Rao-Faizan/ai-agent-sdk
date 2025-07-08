@@ -1,0 +1,26 @@
+2025-07-07 23:52:06,650 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.43:5000
+2025-07-07 23:52:06,650 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-07 23:52:06,652 - INFO -  * Restarting with stat
+2025-07-07 23:52:07,073 - WARNING -  * Debugger is active!
+2025-07-07 23:52:07,076 - INFO -  * Debugger PIN: 792-568-901
+2025-07-07 23:52:20,266 - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:20] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-07 23:52:29,851 - INFO - 127.0.0.1 - - [07/Jul/2025 23:52:29] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-08 00:09:22,185 - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:22] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-08 00:09:35,721 - INFO - 127.0.0.1 - - [08/Jul/2025 00:09:35] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-08 00:12:52,885 - INFO -  * Detected change in 'D:\\ai agent sdk\\app.py', reloading
+2025-07-08 00:12:52,957 - INFO -  * Restarting with stat
+2025-07-08 00:13:23,651 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.43:5000
+2025-07-08 00:13:23,652 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-08 00:13:23,654 - INFO -  * Restarting with stat
+2025-07-08 00:13:24,063 - WARNING -  * Debugger is active!
+2025-07-08 00:13:24,066 - INFO -  * Debugger PIN: 792-568-901
+2025-07-08 00:13:35,056 - INFO - 127.0.0.1 - - [08/Jul/2025 00:13:35] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-08 00:13:50,494 - INFO - 127.0.0.1 - - [08/Jul/2025 00:13:50] "POST /whatsapp HTTP/1.1" 200 -
+2025-07-08 00:29:37,263 - INFO -  * Detected change in 'D:\\ai agent sdk\\app.py', reloading
+2025-07-08 00:29:37,421 - INFO -  * Restarting with stat

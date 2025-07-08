@@ -1,0 +1,74 @@
+2025-06-25 11:43:03,288 - INFO - Scraping fresh data...
+2025-06-25 11:43:03,288 - ERROR - ScrapingBee API key missing
+2025-06-25 11:43:22,980 - WARNING - No valid data scraped, using defaults
+2025-06-25 11:43:23,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.48:5000
+2025-06-25 11:43:23,049 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 11:43:23,051 - INFO -  * Restarting with stat
+2025-06-25 11:43:23,968 - INFO - Scraping fresh data...
+2025-06-25 11:44:02,379 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='app.scrapingbee.com', port=443): Read timed out. (read timeout=30)")': /api/v1/?api_key=KI814S2SI5YSSZ1K1SYIICXRGMPUCIRP9P1QS9NCJ9G178HHKOPCRK8TAUCZHB116WBUYSZDNVJIJJYK&url=https://ait.iak.ngo/api/get?url=/backend/course/specialization/all&render_js=1&wait=5000
+2025-06-25 11:44:10,344 - INFO - Successfully saved scraped data
+2025-06-25 11:44:10,446 - WARNING -  * Debugger is active!
+2025-06-25 11:44:10,449 - INFO -  * Debugger PIN: 792-568-901
+2025-06-25 11:54:24,170 - INFO - Received message from whatsapp:+923702248268: hy
+2025-06-25 11:54:24,171 - INFO - Using cached data
+2025-06-25 11:54:26,470 - INFO - -- BEGIN Twilio API Request --
+2025-06-25 11:54:26,470 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC381e3c42123d02d09d1c8fdef4c69904/Messages.json
+2025-06-25 11:54:26,470 - INFO - Headers:
+2025-06-25 11:54:26,471 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-25 11:54:26,471 - INFO - User-Agent : twilio-python/9.3.1 (Windows AMD64) Python/3.12.8
+2025-06-25 11:54:26,472 - INFO - X-Twilio-Client : python-9.3.1
+2025-06-25 11:54:26,472 - INFO - Accept-Charset : utf-8
+2025-06-25 11:54:26,472 - INFO - Accept : application/json
+2025-06-25 11:54:26,473 - INFO - -- END Twilio API Request --
+2025-06-25 11:54:27,057 - INFO - Response Status Code: 429
+2025-06-25 11:54:27,058 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 25 Jun 2025 18:54:26 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9176bdbbe90df1cfb3f1eacf68a0712d', 'Twilio-Request-Duration': '0.053', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 f150b5c4cf1ad37a4d1edf2f74f92616.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DXB52-P2', 'X-Amz-Cf-Id': '7NaP-sbSy3ALNm8A_FJKwBp7ylEkHiWF4rA1-dKlpA7qpgBUpHrrgw==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-25 11:54:27,059 - ERROR - Error sending WhatsApp message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC381e3c42123d02d09d1c8fdef4c69904/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC381e3c42123d02d09d1c8fdef4c69904 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-25 11:54:27,061 - INFO - Sent response to whatsapp:+923702248268
+2025-06-25 11:54:27,065 - INFO - 127.0.0.1 - - [25/Jun/2025 11:54:27] "POST /whatsapp HTTP/1.1" 200 -
+2025-06-25 11:55:11,983 - INFO - Received message from whatsapp:+923702248268: hy
+2025-06-25 11:55:11,985 - INFO - Using cached data
+2025-06-25 11:55:13,094 - INFO - -- BEGIN Twilio API Request --
+2025-06-25 11:55:13,095 - INFO - POST Request: https://api.twilio.com/2010-04-01/Accounts/AC381e3c42123d02d09d1c8fdef4c69904/Messages.json
+2025-06-25 11:55:13,095 - INFO - Headers:
+2025-06-25 11:55:13,095 - INFO - Content-Type : application/x-www-form-urlencoded
+2025-06-25 11:55:13,096 - INFO - User-Agent : twilio-python/9.3.1 (Windows AMD64) Python/3.12.8
+2025-06-25 11:55:13,096 - INFO - X-Twilio-Client : python-9.3.1
+2025-06-25 11:55:13,096 - INFO - Accept-Charset : utf-8
+2025-06-25 11:55:13,097 - INFO - Accept : application/json
+2025-06-25 11:55:13,097 - INFO - -- END Twilio API Request --
+2025-06-25 11:55:13,604 - INFO - Response Status Code: 429
+2025-06-25 11:55:13,604 - INFO - Response Headers: {'Content-Type': 'application/json', 'Content-Length': '173', 'Connection': 'keep-alive', 'Date': 'Wed, 25 Jun 2025 18:55:13 GMT', 'X-Twilio-Error-Code': '63038', 'Twilio-Concurrent-Requests': '1', 'Twilio-Request-Id': 'RQ9d47d64623139236ecd8516a74618fc6', 'Twilio-Request-Duration': '0.029', 'X-Home-Region': 'us1', 'X-API-Domain': 'api.twilio.com', 'Strict-Transport-Security': 'max-age=31536000', 'X-Cache': 'Error from cloudfront', 'Via': '1.1 820f2fe78be4ed1816a1f54b8b07ccc2.cloudfront.net (CloudFront)', 'X-Amz-Cf-Pop': 'DXB52-P2', 'X-Amz-Cf-Id': 'j7B2C3Kpox-gKlG_ow_u4LdXNnV-BqU_Tk3i_l2Cr87l58ZibiYXBg==', 'X-Powered-By': 'AT-5000', 'X-Shenanigans': 'none', 'Vary': 'Origin'}
+2025-06-25 11:55:13,605 - ERROR - Error sending WhatsApp message: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC381e3c42123d02d09d1c8fdef4c69904/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Account AC381e3c42123d02d09d1c8fdef4c69904 exceeded the 9 daily messages limit[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/63038[0m
+
+
+2025-06-25 11:55:13,606 - INFO - Sent response to whatsapp:+923702248268
+2025-06-25 11:55:13,607 - INFO - 127.0.0.1 - - [25/Jun/2025 11:55:13] "POST /whatsapp HTTP/1.1" 200 -
+2025-06-25 11:59:00,906 - INFO -  * Detected change in 'D:\\ai agent sdk\\app.py', reloading
+2025-06-25 11:59:01,032 - INFO -  * Restarting with stat
